@@ -1,0 +1,86 @@
+body{
+  height: 45rem;
+  width: auto ;
+  background-color: #fcd040f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  height: 2rem;
+  width: 80%;
+  /* border: solid 1px black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+header >p{
+  text-align: center;
+}
+#changeColor{
+  height: 2rem;
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: #2626a1;
+  color: #ffffff;
+  word-wrap:break-word ;
+  font-family: small;
+  /* display: flex;
+  text-align: center; */
+}
+
+#TamañoPx{
+  width: 5rem;
+}
+
+main{
+  width: 20rem;
+  height: 25rem;
+  margin-top: 2rem; 
+  border-radius: 12rem; 
+}
+
+#suprior{
+  width: 100%;
+  height: 7rem;
+  background-color: blue;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#centro{
+  background-color: #ffffff;
+  width: 100%;
+  height: 17.9rem;
+  border-radius: 0 0 1rem 1rem ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main>#centro>p,#btn_centro{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#btn_centro{
+  width: 10rem;
+  height: 1rem;
+  display: flex;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 2rem;
+  background-color: blue;
+}
+
+#carpeta{
+  position: relative;
+  top: 80px;
+  left: 130px; 
+  color: blue;
+  font-size:larger;
+}
